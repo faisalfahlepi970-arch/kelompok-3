@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisata Pemandian Pulau Batu (Pulbat)</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #e7f4e7;
+            color: #2d4b2d;
+        }
+
+        /* HERO */
+        .hero {
+            height: 480px;
+            background: linear-gradient(to bottom, rgba(0, 50, 0, 0.2), rgba(0, 50, 0, 0.75)),
+                url("pulbat.jpeg") center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.7);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 26px;
+            color: #1b8a3a;
+            font-weight: 700;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2 i {
+            font-size: 24px;
+            color: #27ae60;
+        }
+
+        .card {
+            margin-top: 20px;
+            padding: 25px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.55);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.4);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 35px rgba(0,0,0,0.16);
+        }
+
+        .grid-img {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 18px;
+            margin-top: 15px;
+        }
+
+        .grid-img img {
+            width: 100%;
+            border-radius: 12px;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 14px 28px;
+            background: #27ae60;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .btn-back:hover {
+            background: #1b8a3a;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 20px;
+            text-align: center;
+            background: #145a32;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero reveal-top">
+    <h1>Wisata Pemandian Pulau Batu (Pulbat)</h1>
+</div>
+
+<div class="container">
+
+    <!-- ALAMAT MAP -->
+    <h2 class="reveal-left"><i class="fa-solid fa-location-dot"></i> Alamat</h2>
+    <div class="card reveal-up">
+        <p>Jl. Desa Pulau Batu, Kecamatan Sipispis, Serdang Bedagai, Sumatera Utara.</p>
+        <a href="https://www.google.com/maps?q=Wisata\+Pulau\+Batu" target="_blank" style="color:#1b8a3a; font-weight:600; text-decoration:underline;">
+            Buka di Google Maps →
+        </a>
+        <div class="grid-img">
+            <img src="pulbat.jpeg">
+            <img src="pulbat1.webp">
+            <img src="pulbat2.webp">
+        </div>
+    </div>
+
+    <!-- DESKRIPSI -->
+    <h2 class="reveal-left"><i class="fa-solid fa-water"></i> Deskripsi</h2>
+    <div class="card reveal-up">
+        <p>Pulau Batu atau Pulbat Sibatu Batu adalah pemandian alami yang terletak di Kelurahan Bah Sorma, Kecamatan Siantar Sitalasari.</p>
+        <p>Awalnya kawasan ini milik keluarga lokal yang mengelola mata air alami sebagai pemandian. Tempat ini dikenal dengan kolam alami, aliran sungai yang jernih, dan suasana sejuk dengan pepohonan tinggi yang menaungi area pemandian.</p>
+        <p>Pulbat menjadi destinasi favorit warga lokal karena keasriannya dan biaya masuk yang relatif murah atau gratis, hanya dikenai biaya parkir kendaraan. Pengelolaan tempat ini tetap berada di tangan keluarga lokal secara turun-temurun.</p>
+    </div>
+
+    <!-- HEWAN -->
+    <h2 class="reveal-left"><i class="fa-solid fa-umbrella-beach"></i> Fasilitas Utama</h2>
+    <div class="card reveal-up">
+        <div class="grid-img">
+            <div>
+                <img src="pulbat1.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Pemandian Sungai</p>
+            </div>
+            <div>
+                <img src="batualam.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Bebatuan Alam Besar</p>
+            </div>
+            <div>
+                <img src="gazebo.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Gazebo & Tempat Istirahat</p>
+            </div>
+            <div>
+                <img src="areacamp.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Area Camping</p>
+            </div>
+            <div>
+                <img src="warung.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Warung & Kuliner</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPOT FOTO -->
+    <h2 class="reveal-left"><i class="fa-solid fa-camera"></i> Spot Foto Populer</h2>
+    <div class="card reveal-up">
+        <div class="grid-img">
+            <div>
+                <img src="spot-sungai.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Aliran Sungai Jernih</p>
+            </div>
+            <div>
+                <img src="spot-batu.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Bebatuan Besar</p>
+            </div>
+            <div>
+                <img src="spot-jembatan.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Jembatan Kayu</p>
+            </div>
+            <div>
+                <img src="spot-hutan.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Hutan Alami</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="index.html" class="btn-back reveal-up">← Kembali ke Beranda</a>
+</div>
+
+<footer class="reveal-up">
+    © 2025 Wisata Pemandian Pulau Batu (Pulbat) — All Rights Reserved
+</footer>
+
+<script>
+    ScrollReveal().reveal('.reveal-up', {
+        distance: '50px', duration: 1000, origin: 'bottom', interval: 150
+    });
+    Scroll

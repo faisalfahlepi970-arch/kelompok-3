@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Taman Hewan Pematangsiantar</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #e7f4e7;
+            color: #2d4b2d;
+        }
+
+        /* HERO */
+        .hero {
+            height: 480px;
+            background: linear-gradient(to bottom, rgba(0, 50, 0, 0.2), rgba(0, 50, 0, 0.75)),
+                url("logotamanhewan.jpeg") center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.7);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 26px;
+            color: #1b8a3a;
+            font-weight: 700;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2 i {
+            font-size: 24px;
+            color: #27ae60;
+        }
+
+        .card {
+            margin-top: 20px;
+            padding: 25px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.55);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.4);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 35px rgba(0,0,0,0.16);
+        }
+
+        .grid-img {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 18px;
+            margin-top: 15px;
+        }
+
+        .grid-img img {
+            width: 100%;
+            border-radius: 12px;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 14px 28px;
+            background: #27ae60;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .btn-back:hover {
+            background: #1b8a3a;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 20px;
+            text-align: center;
+            background: #145a32;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero reveal-top">
+    <h1>Taman Hewan Pematangsiantar</h1>
+</div>
+
+<div class="container">
+
+    <!-- ALAMAT MAP -->
+    <h2 class="reveal-left"><i class="fa-solid fa-location-dot"></i> Alamat</h2>
+    <div class="card reveal-up">
+        <p>Jl. Gunung Simanuk-manuk, Kota Pematangsiantar, Sumatera Utara.</p>
+        <a href="https://www.google.com/maps?q=Taman+Hewan+Pematangsiantar" target="_blank" style="color:#1b8a3a; font-weight:600; text-decoration:underline;">
+            Buka di Google Maps →
+        </a>
+        <div class="grid-img">
+            <img src="depan3.jpg">
+            <img src="depan2.webp">
+            <img src="depan1.webp">
+        </div>
+    </div>
+
+    <!-- DESKRIPSI -->
+    <h2 class="reveal-left"><i class="fa-solid fa-paw"></i> Deskripsi</h2>
+    <div class="card reveal-up">
+        <p>aman Hewan Pematangsiantar, atau yang lebih dikenal sebagai Siantar Zoo, adalah kebun binatang yang memiliki sejarah panjang sejak dibuka pada 27 November 1936 oleh Dr. Conrad dari Belanda.</p>
+        <p>Saat ini, kebun binatang ini mencakup area seluas sekitar 4,5 hektar dan menampung ratusan ekor satwa dari hampir 200 spesies. Kebun binatang ini dikelola secara swasta dan menyediakan berbagai fasilitas edukasi dan rekreasi, seperti feeding satwa, pertunjukan, museum satwa, restoran, dan toko suvenir</p>
+        <p>Tujuan pendirian taman hewan ini adalah untuk konservasi satwa, pendidikan ekologis, serta menjadi destinasi wisata bagi masyarakat lokal maupun pengunjung dari luar kota.</p>
+    </div>
+
+    <!-- HEWAN -->
+    <h2 class="reveal-left"><i class="fa-solid fa-hippo"></i> Hewan Unggulan</h2>
+    <div class="card reveal-up">
+        <div class="grid-img">
+            <div>
+                <img src="harimau.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Harimau Sumatera</p>
+            </div>
+            <div>
+                <img src="orangutan.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Orangutan</p>
+            </div>
+            <div>
+                <img src="gajah.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Gajah</p>
+            </div>
+            <div>
+                <img src="burungmerak.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Burung Merak</p>
+            </div>
+            <div>
+                <img src="kuda.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Kuda</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPOT FOTO -->
+    <h2 class="reveal-left"><i class="fa-solid fa-camera"></i> Spot Foto Populer</h2>
+    <div class="card reveal-up">
+        <div class="grid-img">
+            <div>
+                <img src="patungharimau.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Patung Harimau</p>
+            </div>
+            <div>
+                <img src="depan3.jpg">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Gerbang Taman Hewan</p>
+            </div>
+            <div>
+                <img src="danaumini.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Danau Mini</p>
+            </div>
+            <div>
+                <img src="tamanburung.webp">
+                <p style="text-align:center; margin-top:6px; font-weight:600;">Taman Burung</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="index.html" class="btn-back reveal-up">← Kembali ke Beranda</a>
+</div>
+
+<footer class="reveal-up">
+    © 2025 Taman Hewan Pematangsiantar — All Rights Reserved
+</footer>
+
+<script>
+    ScrollReveal().reveal('.reveal-up', {
+        distance: '50px', duration: 1000, origin: 'bottom', interval: 150
+    });
+    Scroll

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siantar Smart Tourism</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f8f3ea; /* Cream */
+            color: #4b382a; /* Coklat tua */
+        }
+
+        header {
+            background-color: #8b5e34; /* Coklat */
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #5a3e2b; /* Coklat gelap */
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff3e0;
+            text-align: center;
+            padding: 14px 18px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background-color: #d9b08c;
+            color: black;
+        }
+
+        /* HERO */
+        .hero {
+            background-image: url("potokotasiantar.jpeg");
+            background-size: cover;
+            background-position: center;
+            height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(209, 214, 213);
+            text-shadow: 3px 3px 7px rgba(0,0,0,0.6);
+            border-bottom: 5px solid #8b5e34;
+        }
+
+        .hero h1 {
+            font-size: 3.2em;
+            margin-bottom: 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fffdf8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #6f4e37;
+        }
+
+        /* Destinations grid */
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .destination {
+            flex: 1 1 300px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .destination img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .destination img:hover {
+            transform: scale(1.04);
+        }
+
+        footer {
+            background-color: #3e2c20;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+
+        /* Form */
+        form input, form textarea, form button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccb8a3;
+            font-family: inherit;
+        }
+
+        form button {
+            background-color: #8b5e34;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+        }
+
+        form button:hover {
+            background-color: #6d4828;
+        }
+    </style>
+</head>
+<body>
+
+<header class="reveal-top">
+    <h1>Siantar Smart Tourism</h1>
+    <p>Jelajahi Keindahan Pematangsiantar</p>
+</header>
+
+<nav class="reveal-top">
+    <a href="#home">Beranda</a>
+    <a href="#destinations">Destinasi</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="home" class="hero reveal-bottom">
+    <div>
+        <h1>Selamat Datang di Siantar</h1>
+        <p>Temukan destinasi wisata terbaik di Pematangsiantar, Sumatera Utara.</p>
+    </div>
+</section>
+
+<section id="destinations" class="reveal-left">
+    <h2>Destinasi Wisata Populer</h2>
+
+<div class="destinations">
+
+    <div class="destination reveal-right">
+        <a href="tamanbunga.html">
+            <img src="TamanBungaSiantar.jpg">
+        </a>
+        <h3><a href="tamanbunga.html">Taman Bunga</a></h3>
+        <p>Tempat wisata penuh warna dengan berbagai jenis bunga hias.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="tamanhewan.html">
+            <img src="potodepantamanhewansiantar1.jpeg">
+        </a>
+        <h3><a href="tamanhewan.html">Taman Hewan Siantar</a></h3>
+        <p>Kebun binatang bersejarah dengan koleksi satwa lengkap.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="pulbat.html">
+            <img src="pulbat.jpeg">
+        </a>
+        <h3><a href="pulbat.html">Pemandian Pulau Batu (Pulbat)</a></h3>
+        <p>Wisata pemandian air alami jernih dan segar.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="tugubecak.html">
+            <img src="pototugubecak.jpeg">
+        </a>
+        <h3><a href="tugubecak.html">Tugu Becak</a></h3>
+        <p>Ikon kota Pematangsiantar dengan becak motor khas.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="martobawaterpark.html">
+            <img src="waterpark.jpeg">
+        </a>
+        <h3><a href="martobawaterpark.html">Martoba Waterpark</a></h3>
+        <p>Tempat wisata kolam pemandian anak-anak.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="vihara.html">
+            <img src="vihara.jpeg">
+        </a>
+        <h3><a href="vihara.html">Vihara Avalokitesvara</a></h3>
+        <p>Spot foto unik dengan arsitektur khas Tiongkok.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="bahbolon.html">
+            <img src="bahbolon.jpeg">
+        </a>
+        <h3><a href="bahbolon.html">Bahbolon Siantar</a></h3>
+        <p>Cafe dengan pemandangan sungai dan wahana arung jeram.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="airterjunsijambek.html">
+            <img src="airterjun.jpeg">
+        </a>
+        <h3><a href="airterjunsijambek.html">Air Terjun Sijambek</a></h3>
+        <p>Wisata alam air terjun dengan aktivitas offroad.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="museum-simalungun.html">
+            <img src="museum.jpeg">
+        </a>
+        <h3><a href="museum-simalungun.html">Museum Simalungun</a></h3>
+        <p>Wisata sejarah dan budaya Simalungun.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="tamanbeo.html">
+            <img src="tamanbeo.jpeg">
+        </a>
+        <h3><a href="tamanbeo.html">Taman Beo</a></h3>
+        <p>Spot burung beo dan wahana bermain.</p>
+    </div>
+
+    <div class="destination reveal-right">
+        <a href="karanganyer.html">
+            <img src="karanganyer.jpg">
+        </a>
+        <h3><a href="karanganyer.html">Karang Nyer</a></h3>
+        <p>Pemandian alami dari mata air jernih.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="reveal-bottom">
+    <h2>Hubungi Kami</h2>
+    <form>
+        <input type="text" placeholder="Nama Anda" required>
+        <input type="email" placeholder="Email Anda" required>
+        <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Siantar Smart Tourism. Semua Hak Dilindungi.</p>
+</footer>
+
+<script>
+    // SCROLL REVEAL ANIMATION
+    ScrollReveal().reveal('.reveal-top', {
+        duration: 1200,
+        origin: 'top',
+        distance: '70px'
+    });
+
+    ScrollReveal().reveal('.reveal-bottom', {
+        duration: 1200,
+        origin: 'bottom',
+        distance: '70px'
+    });
+
+    ScrollReveal().reveal('.reveal-left', {
+        duration: 1200,
+        origin: 'left',
+        distance: '70px'
+    });
+
+    ScrollReveal().reveal('.reveal-right', {
+        duration: 1200,
+        origin: 'right',
+        distance: '70px'
+    });
+</script>
+
+</body>
+</html>

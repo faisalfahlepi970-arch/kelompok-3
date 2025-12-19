@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siantar Smart Tourism</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400?text=Siantar+Smart+Tourism'); /* Ganti dengan gambar asli */
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .destination {
+            flex: 1 1 300px;
+            text-align: center;
+        }
+        .destination img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Siantar Smart Tourism</h1>
+        <p>Jelajahi Keindahan Pematangsiantar</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#destinations">Destinasi</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    
+    <section id="home" class="hero">
+        <div>
+            <h1>Selamat Datang di Siantar</h1>
+            <p>Temukan destinasi wisata terbaik di Pematangsiantar, Sumatera Utara.</p>
+        </div>
+    </section>
+    
+    <section id="destinations">
+        <h2>Destinasi Wisata Populer</h2>
+        <div class="destinations">
+            <div class="destination">
+                <img src="https://via.placeholder.com/300x200?text=Danau+Toba" alt="Danau Toba">
+                <h3>Danau Toba</h3>
+                <p>Danau vulkanik terbesar di dunia, dengan pemandangan indah dan budaya Batak.</p>
+            </div>
+            <div class="destination">
+                <img src="https://via.placeholder.com/300x200?text=Mikie+Funland" alt="Mikie Funland">
+                <h3>Mikie Funland</h3>
+                <p>Taman hiburan keluarga dengan wahana seru dan area bermain anak.</p>
+            </div>
+            <div class="destination">
+                <img src="https://via.placeholder.com/300x200?text=Istana+Maimun" alt="Istana Maimun">
+                <h3>Istana Maimun</h3>
+                <p>Istana kerajaan dengan arsitektur unik dan sejarah yang kaya.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <form>
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Siantar Smart Tourism. Semua Hak Dilindungi.</p>
+    </footer>
+    
+    <script>
+        // JavaScript sederhana untuk validasi form
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Terima kasih! Pesan Anda telah dikirim.');
+        });
+    </script>
+</body>
+</html>
